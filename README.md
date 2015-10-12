@@ -4,7 +4,7 @@ It aims to provide a simple set of tools for casual game development (in fact is
 
 ----
 
-# TODO
+## TODO
 
 1. Write a better README.md
 2. Upload some examples
