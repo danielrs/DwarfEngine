@@ -1,0 +1,10 @@
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/install/Linux/include/GLFW/glfw3native.h
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/install/Linux/include/GLFW/glfw3.h
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/install/Linux/lib/cmake/glfw/glfw3Config.cmake
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/install/Linux/lib/cmake/glfw/glfw3ConfigVersion.cmake
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/install/Linux/lib/cmake/glfw/glfwTargets.cmake
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/install/Linux/lib/cmake/glfw/glfwTargets-noconfig.cmake
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/install/Linux/lib/pkgconfig/glfw3.pc
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/install/Linux/lib/libglfw.so.3.1
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/install/Linux/lib/libglfw.so.3
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/install/Linux/lib/libglfw.so

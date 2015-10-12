@@ -1,0 +1,17 @@
+# An external project for SDL, Simple DirectMedia Layer
+# https://www.libsdl.org/
+
+set(ASSIMP_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/Assimp")
+set(ASSIMP_INSTALL "${DWARF_EXTERNAL_INSTALL_PREFIX}")
+
+ExternalProject_Add(ASSIMP
+	URL http://sourceforge.net/projects/assimp/files/assimp-3.1/assimp-3.1.1_no_test_models.zip/download
+	DOWNLOAD_DIR ${DWARF_EXTERNAL_DOWNLOAD}
+	PREFIX ${ASSIMP_SOURCE}
+	INSTALL_DIR ${ASSIMP_INSTALL}
+	CMAKE_ARGS
+		-DCMAKE_INSTALL_PREFIX:PATH=<INSTALL_DIR>
+		-DBUILD_SHARED_LIBS:BOOL=${BUILD_SHARED_LIBS}
+		-DASSIMP_BUILD_ASSIMP_TOOLS:BOOL=OFF
+		-DASSIMP_BUILD_TESTS:BOOL=OFF
+)

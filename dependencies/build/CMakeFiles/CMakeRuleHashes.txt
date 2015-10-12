@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+c2144d9be01f4b1b19ae6fa90a0325f2 CMakeFiles/GLFW
+8d039fa76462e0f01218fe45494058f4 CMakeFiles/GLFW-complete
+a8ca314ad1f5435a5655524c34ed1c4d GLFW/src/GLFW-stamp/GLFW-build
+683e1b5a1c06b004805d681c04fe2d98 GLFW/src/GLFW-stamp/GLFW-configure
+fa32026978af78b09cbc05740f3569a4 GLFW/src/GLFW-stamp/GLFW-download
+5d103a60069f431b5e5cb0f0c9a9ff4d GLFW/src/GLFW-stamp/GLFW-install
+4e03840c4aeaad2ff048bd004b8d6173 GLFW/src/GLFW-stamp/GLFW-mkdir
+15138effce3ee50f1e2e821a61431ccf GLFW/src/GLFW-stamp/GLFW-patch
+ed49e946899996e6e78c2cae8eb67ec4 GLFW/src/GLFW-stamp/GLFW-update

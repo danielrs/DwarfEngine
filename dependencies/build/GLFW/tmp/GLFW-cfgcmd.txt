@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=<INSTALL_DIR>;-DBUILD_SHARED_LIBS:BOOL=ON;-DGLFW_BUILD_DOCS:BOOL=OFF;-DGLFW_BUILD_EXAMPLES:BOOL=OFF;-DGLFW_BUILD_TESTS:BOOL=OFF;-GUnix Makefiles;/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/GLFW/src/GLFW'

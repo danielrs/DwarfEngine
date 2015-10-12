@@ -1,0 +1,15 @@
+# An external project for SDL, Simple DirectMedia Layer
+# https://www.libsdl.org/
+
+set(SDL_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/SDL")
+set(SDL_INSTALL "${DWARF_EXTERNAL_INSTALL_PREFIX}")
+
+ExternalProject_Add(SDL2
+	URL https://www.libsdl.org/release/SDL2-2.0.3.tar.gz
+	DOWNLOAD_DIR ${DWARF_EXTERNAL_DOWNLOAD}
+	PREFIX ${SDL_SOURCE}
+	INSTALL_DIR ${SDL_INSTALL}
+	CMAKE_ARGS
+		-DCMAKE_INSTALL_PREFIX:PATH=<INSTALL_DIR>
+		-DBUILD_SHARED_LIBS:BOOL=${BUILD_SHARED_LIBS}
+)

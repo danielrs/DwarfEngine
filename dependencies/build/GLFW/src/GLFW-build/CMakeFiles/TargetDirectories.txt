@@ -1,0 +1,2 @@
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/GLFW/src/GLFW-build/CMakeFiles/uninstall.dir
+/home/danielrs/Development/Projects/DwarfEngine/dependencies/build/GLFW/src/GLFW-build/src/CMakeFiles/glfw.dir

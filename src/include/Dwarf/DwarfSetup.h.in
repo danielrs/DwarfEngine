@@ -1,0 +1,26 @@
+#ifndef DWARF_SETUP_H
+#define DWARF_SETUP_H
+
+// Define export API
+#if defined(DWARF_STATIC) || !defined(_WIN32)
+#define DWARFAPI
+#elif defined(_WIN32)
+	#if defined(DWARF_BUILD)
+	#define DWARFAPI __declspec(dllexport)
+	#else
+	#define DWARFAPI __declspec(dllimport)
+	#endif
+#endif
+
+// Macros for GLEW, STB_IMAGE and OpenGL includes
+#define GLEW_H "@DWARF_GLEW_H@"
+
+#define STB_IMAGE_H "@DWARF_STB_IMAGE_H@"
+
+#ifdef __APPLE__
+#define OPENGL_H <OpenGL/gl.h>
+#else
+#define OPENGL_H <GL/gl.h>
+#endif
+
+#endif // DWARF_SETUP_H
