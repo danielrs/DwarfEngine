@@ -12,6 +12,8 @@ The engine is very simple at this time, it includes the following functionalitie
 * Math classes (Matrix, Vector, Random numbers)
 * Resource Manager
 
+All the code can be found inside **src/** folder, it should be easy to learn from it.
+
 ----
 
 ## TODO
